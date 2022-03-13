@@ -1,8 +1,10 @@
-const conf = new (require('conf'))()
-const chalk = require('chalk')
+import Conf from "conf";
+import chalk from "chalk";
 
-function list () {
-    const todoList = conf.get('todo-list')
+const config = new Conf();
+
+export default function list () {
+    const todoList = config.get('todo-list')
     if (todoList && todoList.length) {
         console.log(
             chalk.blue.bold('Tasks in green are done. Tasks in yellow are still not done.')
@@ -25,4 +27,3 @@ function list () {
     }
 }
 
-module.exports = list

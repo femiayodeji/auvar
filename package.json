@@ -2,6 +2,7 @@
   "name": "environ-cli",
   "version": "1.0.0",
   "description": "A command line tool for team management of environment variables",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
