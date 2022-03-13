@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/femiayodeji/environ-cli.git"
+    "url": "git+https://github.com/femiayodeji/auvar.git"
   },
   "author": "Femi Ayodeji <femidotayodeji@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/femiayodeji/environ-cli/issues"
+    "url": "https://github.com/femiayodeji/auvar/issues"
   },
-  "homepage": "https://github.com/femiayodeji/environ-cli#readme",
+  "homepage": "https://github.com/femiayodeji/auvar#readme",
   "dependencies": {
     "chalk": "^5.0.1",
     "commander": "^9.0.0",
