@@ -12,11 +12,11 @@ export default function list () {
         todoList.forEach((task, index) => {
             if (task.done) {
                 console.log(
-                    chalk.greenBright(`${index}. ${task.text}`)
+                    chalk.greenBright(`${index+1}. ${task.text}`)
                 )
             } else {
                 console.log(
-                    chalk.yellowBright(`${index}. ${task.text}`)
+                    chalk.yellowBright(`${index+1}. ${task.text}`)
                 )
             }
         })
