@@ -1,7 +1,7 @@
 import Conf from "conf";
 import chalk from "chalk";
 
-const config = new Conf();
+const config = new Conf({projectName: "auvar"});
 
 export default function list () {
     const todoList = config.get('todo-list')
