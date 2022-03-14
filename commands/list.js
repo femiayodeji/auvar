@@ -1,7 +1,7 @@
-import Conf from "conf";
 import chalk from "chalk";
+import PersistData from '../config.js'
 
-const config = new Conf({projectName: "auvar"});
+const config = new PersistData();
 
 export default function list () {
     const todoList = config.get('todo-list')

@@ -1,7 +1,7 @@
-import Conf from "conf";
 import chalk from "chalk";
+import PersistData from '../config.js'
 
-const config = new Conf();
+const config = new PersistData();
 
 export default function markDone ({tasks}) {
     let todosList = config.get('todo-list')
